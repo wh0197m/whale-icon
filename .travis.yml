@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - '10'
+befor_script:
+  - npm run install
+script:
+  - npm run test
+  - npm run make
+  - npm run build
+  - npm run make:angular
+  - npm run build:angular
+branches:
+  only:
+    - master
+    - dev

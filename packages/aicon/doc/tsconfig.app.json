@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "types": []
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "paths": {
+    "@whale/dot-aicon": [
+      "../lib/public_api"
+    ],
+    "@whale/dot-aicon/icons": [
+      "../lib/icons/public_api"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "@whale/bicon",
+  "version": "1.0.0",
+  "description": "Icon set about industry theme",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "sideEffect": false,
+  "scripts": {
+    "test": "jest",
+    "make": "cross-env TS_NODE_PROJECT=maker/tsconfig.json node --require ts-node/register maker/index.ts",
+    "reset": "cross-env TS_NODE_PROJECT=maker/tsconfig.json node --require ts-node/register maker/reset.ts",
+    "clean": "rimraf .cache lib",
+    "build:lib": "cross-env NODE_ENV=production rimraf lib && tsc --project ./lib.tsconfig.json --outDir lib",
+    "build:esm": "cross-env NODE_ENV=production rimraf lib/index.esm.js && babel --extensions '.tx' --presets @babel/preset-typescript src/index.ts --out-file lib/index.esm.js",
+    "build:umd": "webpack --config umd.webpack.config.js -p",
+    "build": "npm run build:lib && npm run build:esm && npm run build:umd",
+    "prepublish": "npm run test && npm run make && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langnal/dot-icon.git"
+  },
+  "contributors": [
+    "psw0msd <psw0msd@gmail.com>"
+  ],
+  "keywords": [
+    "svg",
+    "module",
+    "d.ts",
+    "interface"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/langnal/dot-icon/issues"
+  },
+  "homepage": "https://github.com/langnal/dot-icon#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/fs-extra": "^5.0.4",
+    "@types/globby": "^8.0.0",
+    "@types/jest": "^23.3.13",
+    "@types/lodash": "^4.14.120",
+    "@types/node": "^10.12.18",
+    "@types/parse5": "^5.0.0",
+    "@types/rimraf": "^2.0.2",
+    "@types/svgo": "^1.0.1",
+    "chalk": "^2.4.2",
+    "cross-env": "^5.2.0",
+    "fs-extra": "^7.0.1",
+    "globby": "^9.0.0",
+    "jest": "^23.6.0",
+    "lodash": "^4.17.11",
+    "parse5": "^5.1.0",
+    "rimraf": "^2.6.3",
+    "rxjs": "^6.3.3",
+    "svgo": "^1.1.1",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@types/prettier": "^1.15.2",
+    "prettier": "^1.15.3"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "./test/tsconfig.json",
+        "babelConfig": true
+      }
+    },
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/packages/",
+      "<rootDir>/node_modules/",
+      "<rootDir>/.cache/"
+    ]
+  }
+}

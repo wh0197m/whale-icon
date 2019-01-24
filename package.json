@@ -1,0 +1,15 @@
+{
+  "name": "dot-icon",
+  "private": true,
+  "scripts": {
+    "install": "lerna bootstrap --registry=https://registry.npm.taobao.org",
+    "test": "lerna run --scope @whale/bicon test",
+    "make": "lerna run --scope @whale/bicon make",
+    "build": "lerna run --scope @whale/bicon build",
+    "make:angular": "lerna run --scope @whale/aicon make",
+    "build:angular": "lerna run --scope @whale/aicon build:lib"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  }
+}

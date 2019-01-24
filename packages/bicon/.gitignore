@@ -1,0 +1,36 @@
+.DS_Store
+node_modules/
+**/*/node_modules/
+dist/
+lib/
+es/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# lock
+package-lock.json
+
+# auto generated
+.cache
+
+# auto src generated
+src/**/*.ts
+
+# test generated
+test/mock/src/**/*.ts
+test/mock/inline-svg/**/*.svg
+
+# inline generated
+inline-svg/**/*.svg
+
+# publish
+*.tgz

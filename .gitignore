@@ -35,6 +35,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+**/*/node_modules
 
 # TypeScript v1 declaration files
 typings/
@@ -59,3 +60,10 @@ typings/
 
 # next.js build output
 .next
+
+# IDE
+.vscode
+
+# lock
+package-lock.json
+**/*/package-lock.json
