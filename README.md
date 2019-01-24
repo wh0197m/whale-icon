@@ -1,7 +1,7 @@
-<p align="center">工业主题的图标集合</p>
+<h2 align="center">工业主题的图标集合</h2>
 
 <div align="center">
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![travis](https://www.travis-ci.org/wh0197m/whale-icon.svg?branch=master)](https://travis-ci.org/)
 </div>
 
 ## Usage
