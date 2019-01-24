@@ -1,7 +1,7 @@
 <h2 align="center">工业主题的图标集合</h2>
 
 <div align="center">
-[![travis](https://www.travis-ci.org/wh0197m/whale-icon.svg?branch=master)](https://travis-ci.org/)
+![travis](https://www.travis-ci.org/wh0197m/whale-icon.svg?branch=master)
 </div>
 
 ## Usage
