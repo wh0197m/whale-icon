@@ -25,7 +25,7 @@ import { Manifest, ThemeType, IconService, manifest } from '@whale/aicon';
     }
     i {
       font-size: 4rem;
-      color: purple;
+      color: green;
       margin: 0 1rem;
     }
   `]
@@ -40,7 +40,7 @@ export class AppComponent implements OnInit {
   }
 
   constructor(private _iconService: IconService) {
-    this._iconService.bisColor = { primaryColor: 'purple'} ;
+    this._iconService.bisColor = { primaryColor: 'green'} ;
   }
 
   ngOnInit(): void {

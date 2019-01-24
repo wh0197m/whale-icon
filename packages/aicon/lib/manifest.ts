@@ -4,7 +4,7 @@
 import { Manifest } from './types';
 
 export const manifest: Manifest = {
-  linear: ['printer'],
-  plane: ['printer'],
-  bis: ['printer']
+  linear: ['approve', 'mail', 'printer'],
+  plane: ['approve', 'mail', 'printer'],
+  bis: ['approve', 'mail', 'printer']
 };
