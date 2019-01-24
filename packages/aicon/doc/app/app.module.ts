@@ -4,7 +4,7 @@ import { CommonModule} from '@angular/common';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-import { IconModule } from '@whale/dot-aicon';
+import { IconModule } from '@whale/aicon';
 import { AppInterceptor } from './app-interceptor.module';
 import { AppComponent } from './app.component';
 

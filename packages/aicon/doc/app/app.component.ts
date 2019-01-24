@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Manifest, ThemeType, IconService, manifest } from '@whale/dot-aicon';
+import { Manifest, ThemeType, IconService, manifest } from '@whale/aicon';
 
 @Component({
   selector: 'lx-root',

@@ -111,7 +111,7 @@
         }
       }
     },
-    "dot-aicon": {
+    "aicon": {
       "root": "lib",
       "projectType": "library",
       "prefix": "lx",

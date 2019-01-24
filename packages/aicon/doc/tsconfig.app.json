@@ -9,10 +9,10 @@
     "**/*.spec.ts"
   ],
   "paths": {
-    "@whale/dot-aicon": [
+    "@whale/aicon": [
       "../lib/public_api"
     ],
-    "@whale/dot-aicon/icons": [
+    "@whale/aicon/icons": [
       "../lib/icons/public_api"
     ]
   }

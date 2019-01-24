@@ -1,1 +1,1 @@
-export { IconDefinition } from '@whale/dot-aicon';
+export { IconDefinition } from '@whale/aicon';

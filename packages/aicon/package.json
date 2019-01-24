@@ -1,11 +1,11 @@
 {
-  "name": "@whale/dot-aicon-workspace",
+  "name": "@whale/aicon",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "make": "cross-env TS_NODE_PROJECT=maker/tsconfig.json node --require ts-node/register maker/index.ts",
-    "build:lib": "ng build dot-aicon"
+    "build:lib": "ng build aicon"
   },
   "private": true,
   "dependencies": {
