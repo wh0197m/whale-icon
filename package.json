@@ -8,7 +8,7 @@
     "build": "lerna run --scope @whale/bicon build",
     "make:angular": "lerna run --scope @whale/aicon make",
     "build:angular": "lerna run --scope @whale/aicon build:lib",
-    "publish": "lerna publish --registry=https://registry.npm.org"
+    "publish": "lerna publish --registry=http://registry.npmjs.org"
   },
   "devDependencies": {
     "lerna": "^3.10.5"
