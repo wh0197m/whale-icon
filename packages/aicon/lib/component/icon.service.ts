@@ -40,7 +40,7 @@ export class IconService {
 
   protected _bisColorPalette: BisColorPalette = {
     primaryColor: '#333333',
-    secondaryColor: '#E6E6E6',
+    secondaryColor: '#E6E6E6'
   }
 
   set bisColor({ primaryColor, secondaryColor }: BisColorPaletteSetter) {
@@ -52,7 +52,6 @@ export class IconService {
     return { ...this._bisColorPalette } as BisColorPalette;
   }
 
-  //
   constructor(
     protected _rendererFactory: RendererFactory2, // 仅用来构造和初始化一个自定义的render2
     @Optional() protected _handler: HttpBackend, // 最后一个HttpHandler，它直接将请求通过HTTP API发给后端

@@ -104,7 +104,7 @@ export async function make(env: Enviroment) {
       return {
         path: path.resolve(
           env.paths.INLINE_SVG_OUTPUT_DIR,
-          icon.theme,
+          icon.theme as ThemeType,
           `./${icon.name}.svg`
         ),
         content: icon.icon
@@ -115,10 +115,10 @@ export async function make(env: Enviroment) {
   // 生成具体某个icon的ts类
   const iconTsBio = await fs.readFile(env.paths.ICON_BOILERPLATE, 'utf8');
   const iconFiles$ = GenerateIconMetaData$.pipe(
-    map<GenerateIconMetaData, {identifier: string; content: string; theme: ThemeType}>(({ identifier, icon}) => {
+    map<GenerateIconMetaData, {identifier: string; content: string; theme: ThemeType}>(({ identifier, icon }) => {
       return {
         identifier,
-        theme: icon.theme,
+        theme: icon.theme as ThemeType,
         content: Prettier.format(
             iconTsBio
               .replace(ICON_IDENTIFIER, identifier)
