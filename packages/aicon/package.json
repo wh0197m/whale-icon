@@ -8,6 +8,9 @@
     "build:lib": "ng build aicon"
   },
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
@@ -53,5 +56,5 @@
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
   },
-  "gitHead": "89756fa06f0fe3d0b99a3e8917538b9beefdfdf2"
+  "gitHead": "88f21dcfaf8e5e83a031f6a91297f4708704ba43"
 }

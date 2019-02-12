@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "sideEffect": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "make": "cross-env TS_NODE_PROJECT=maker/tsconfig.json node --require ts-node/register maker/index.ts",
@@ -92,5 +95,5 @@
       "<rootDir>/.cache/"
     ]
   },
-  "gitHead": "89756fa06f0fe3d0b99a3e8917538b9beefdfdf2"
+  "gitHead": "88f21dcfaf8e5e83a031f6a91297f4708704ba43"
 }
