@@ -3,10 +3,9 @@ before_install:
   - export PATH="$HOME/node_modules/.bin:$PATH"
 node_js:
   - '10'
-befor_script:
-  - npm run install
-script:
+before_script:
   - lerna bootstrap
+script:
   - npm run test
   - npm run make
   - npm run build
