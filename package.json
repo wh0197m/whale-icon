@@ -2,7 +2,7 @@
   "name": "dot-icon",
   "private": false,
   "scripts": {
-    "ins": "lerna bootstrap --registry=https://registry.npm.taobao.org",
+    "ins": "lerna bootstrap",
     "test": "lerna run --scope @lxtech/bicon test",
     "make": "lerna run --scope @lxtech/bicon make",
     "build": "lerna run --scope @lxtech/bicon build",
