@@ -6,6 +6,7 @@ node_js:
 befor_script:
   - npm run install
 script:
+  - lerna bootstrap
   - npm run test
   - npm run make
   - npm run build
