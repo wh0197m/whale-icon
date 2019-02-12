@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'lib'),
     filename: 'umd.js',
-    library: '@Whale/DotIcon',
+    library: '@lxtech/DotIcon',
     libraryTarget: 'umd'
   },
   plugins: [new webpack.BannerPlugin(banner)]

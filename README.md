@@ -14,5 +14,5 @@ npm run install
 npm run make
 npm run build
 npm run make:angular
-npm run build:angular // 生成一个可用的icon包，其实可直接去npmjs中搜索@whale/aicon即可
+npm run build:angular // 生成一个可用的icon包，其实可直接去npmjs中搜索@lxtech/aicon即可
 ```

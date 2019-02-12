@@ -9,10 +9,10 @@
     "**/*.spec.ts"
   ],
   "paths": {
-    "@whale/aicon": [
+    "@lxtech/aicon": [
       "../lib/public_api"
     ],
-    "@whale/aicon/icons": [
+    "@lxtech/aicon/icons": [
       "../lib/icons/public_api"
     ]
   }

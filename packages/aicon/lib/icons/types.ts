@@ -1,1 +1,1 @@
-export { IconDefinition } from '@whale/aicon';
+export { IconDefinition } from '@lxtech/aicon';

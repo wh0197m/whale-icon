@@ -1,5 +1,5 @@
 {
-  "name": "@whale/aicon",
+  "name": "@lxtech/aicon",
   "version": "1.0.3",
   "scripts": {
     "ng": "ng",
@@ -52,5 +52,6 @@
     "tslib": "^1.9.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  }
+  },
+  "gitHead": "3af0e8757b14e240d7718293d7681257e6e7c1e0"
 }

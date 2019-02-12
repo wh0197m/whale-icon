@@ -11,7 +11,7 @@
       "node"
     ],
     "paths": {
-      "@whale/dot-aicon": [
+      "@lxtech/dot-aicon": [
         "./public_api.ts"
       ]
     }

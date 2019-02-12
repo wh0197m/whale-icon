@@ -3,11 +3,11 @@
   "private": false,
   "scripts": {
     "ins": "lerna bootstrap --registry=https://registry.npm.taobao.org",
-    "test": "lerna run --scope @whale/bicon test",
-    "make": "lerna run --scope @whale/bicon make",
-    "build": "lerna run --scope @whale/bicon build",
-    "make:angular": "lerna run --scope @whale/aicon make",
-    "build:angular": "lerna run --scope @whale/aicon build:lib",
+    "test": "lerna run --scope @lxtech/bicon test",
+    "make": "lerna run --scope @lxtech/bicon make",
+    "build": "lerna run --scope @lxtech/bicon build",
+    "make:angular": "lerna run --scope @lxtech/aicon make",
+    "build:angular": "lerna run --scope @lxtech/aicon build:lib",
     "publish": "lerna publish --registry=http://registry.npmjs.org"
   },
   "devDependencies": {

@@ -120,7 +120,7 @@ Object.keys(presetPrimaryColors).forEach(key => {
 });
 
 // 转换信息输出
-export const lxOuputPrefix = '[@whale/aicon]: ';
+export const lxOuputPrefix = '[@lxtech/aicon]: ';
 
 export function outputErr(message: string): void {
   console.error(`${lxOuputPrefix}${message}.`);

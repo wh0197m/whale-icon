@@ -1,5 +1,5 @@
 {
-  "name": "@whale/bicon",
+  "name": "@lxtech/bicon",
   "version": "1.0.10",
   "description": "Icon set about industry theme",
   "main": "lib/index.js",
@@ -92,5 +92,5 @@
       "<rootDir>/.cache/"
     ]
   },
-  "gitHead": "efc502b925fe3cebd91fb7f253a992ebbcfdbdd8"
+  "gitHead": "3af0e8757b14e240d7718293d7681257e6e7c1e0"
 }

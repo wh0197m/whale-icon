@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Manifest, ThemeType, IconService, manifest } from '@whale/aicon';
+import { Manifest, ThemeType, IconService, manifest } from '@lxtech/aicon';
 
 @Component({
   selector: 'lx-root',
   template: `
     <!--The content below is only a placeholder and can be replaced.-->
-    <h1> LxTech自研图标库 [@whale/dot-aicon]</h1>
+    <h1> LxTech自研图标库 [@lxtech/dot-aicon]</h1>
     <p>
       三种可选主题配置&emsp;
       <select (change)="changeIcons()" [(ngModel)]="currentTheme">
