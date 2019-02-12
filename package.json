@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "lerna": "^3.10.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
