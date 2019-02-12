@@ -4,7 +4,7 @@ before_install:
 node_js:
   - '10'
 before_script:
-  - lerna bootstrap
+  - npm run ins
 script:
   - npm run test
   - npm run make
