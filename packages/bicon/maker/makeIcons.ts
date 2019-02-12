@@ -60,7 +60,7 @@ export async function make(env: Enviroment) {
     ]
   });
 
-  await reset(env);
+  // await reset(env);
 
   // 获取svg目录下的文件名列表
   const svgBasicNames = await getFormattedFileNameList(env);
